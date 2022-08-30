@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<phonebook>
+
+
+    <person>
+        <name>Green</name>
+        <email>javaSE@gmail.com</email>
+        <phone_number>1122-2225-33</phone_number>
+        <web>www.java.com</web>
+
+    </person>
+    <person>
+        <name>Crys</name>
+        <email>javaEE@gmail.com</email>
+        <phone_number>22-55-8888-88</phone_number>
+        <web>www.java.com</web>
+
+    </person>
+    <person>
+        <name>Duke</name>
+        <email>javaME@gmail.com</email>
+        <phone_number>1542-25425-378</phone_number>
+        <web>www.java.com</web>
+
+    </person>
+
+
+
+
+</phonebook>

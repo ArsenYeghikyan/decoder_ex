@@ -1,4 +1,4 @@
-package xml.example.task3;
+package xml.example.dom_parser;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -7,7 +7,6 @@ import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.transform.Transformer;
-import javax.xml.transform.TransformerConfigurationException;
 import javax.xml.transform.TransformerException;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
@@ -63,7 +62,7 @@ public class Main {
         Transformer t = tf.newTransformer();
 
         DOMSource source = new DOMSource(doc);
-        StreamResult sr = new StreamResult(new File("C:\\Users\\Best\\IdeaProjects\\decoder_ex\\src\\xml\\example\\task3\\my_build.xml"));
+        StreamResult sr = new StreamResult(new File("C:\\Users\\Best\\IdeaProjects\\decoder_ex\\src\\xml\\example\\dom_parser\\my_build.xml"));
 
         t.transform(source, sr);
 
